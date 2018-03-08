@@ -9,35 +9,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Wild Fest</title>
-</head>
+</head> 
     
 <body>
     <!-- Partie arnaud -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-fest">
-            <a class="navbar-brand" href="#">WildFest</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-fest" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-md-center" id="navbar-fest">
-                <ul class="navbar-nav ">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#artiste">Artiste<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#programme">Programme</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#buvette">Buvette</a>
-                    </li>
-                    <li>
-                        <a class="nav-link" href="#infos">Infos Pratiques</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <section class="slide-fest">
-            <div class="container">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-fest">
+                <a class="navbar-brand" href="#">WildFest</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-fest" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-md-left" id="navbar-fest">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#artiste">Artiste<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#programme">Programme</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#buvette">Buvette</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#infos">Infos Pratiques</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <section id="slide-fest">
+            <div class="container-fluid">
                 <div id="wild-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#wild-carousel" data-slide-to="0" class="active"></li>
@@ -68,12 +70,15 @@
         </section>
     </header>
     
-    <section class="container presentation">
-        <h1>C'est quoile Wild Fest</h1>
-        <img class="rounded-circle float-right" src="http://via.placeholder.com/140x140" alt="placeholder">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis unde quibusdam dolores. Sequi possimus repudiandae voluptatum nam dolores iusto, 
-        rerum doloremque pariatur molestias facere voluptatibus doloribus nihil, quaerat id unde! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Iste iure quibusdam voluptate at eos tempore, a ut molestias dolores, animi, similique id ullam corporis. Sint adipisci consequatur quo velit reprehenderit.</p>
+    <section class="container-fluid" id="presentation">
+        <h1 class="text-center mt-5 mb-5">Qu'est-ce que Wild Fest ?</h1>
+        <img class="rounded-circle float-right ml-5" src="http://via.placeholder.com/140x140" alt="placeholder">
+        <div class="mt-30">
+            <p class="lead text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis unde quibusdam dolores. Sequi possimus repudiandae voluptatum nam dolores iusto, 
+                rerum doloremque pariatur molestias facere voluptatibus doloribus nihil, quaerat id unde! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Iste iure quibusdam voluptate at eos tempore, a ut molestias dolores, animi, similique id ullam corporis. Sint adipisci consequatur quo velit reprehenderit.
+            </p>
+        </div>
     </section>   
 
 
