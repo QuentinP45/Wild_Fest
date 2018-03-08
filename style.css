@@ -1,9 +1,43 @@
+#artiste div .card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}  
+
+#artiste div .card-title {
+    
+    color:#FF5500;
+        
+}
 
 
-@font-face {}
 
-   
-.container-fluid  {}
+#artiste div .btn {
+    
+    background-color: #999966;
+    color:white;
+    
+}
 
-  
+#artiste {
+    
+    
+    padding-bottom: 40px;
+    
+    
+}
 
+
+#artiste .card-img-top {
+    
+
+
+ transition: .5s ease;
+ opacity: .5; 
+    
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
