@@ -70,13 +70,53 @@
     
     
     }
-#programme h1{
+    #programme h1{
 
-    margin-bottom: 60px;
+        margin-bottom: 60px;
+    
+    }
+    
+    #programme{
+    
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    
+    
+    /* Section Arnaud */
+    
+    #presentation{
+    
+        margin-bottom: 60px;
+        margin-top: 60px;
+           
+        }
+    #presentation h1{
+    
+            margin-bottom: 60px;
+           
+               
+            }
+    
+    /* Section ziad */
 
+    #buvette{
+    
+      
+        margin-top: 60px;
+        margin-bottom: 60px;
+           
+        }
+    #buvette h1{
+    
+            margin-bottom: 60px;
+           
+               
+            }
 
-}
-
-
-/* Section Arnaud */
-
+            #galerie{
+    
+                margin-bottom: 60px;
+               
+                   
+                }
