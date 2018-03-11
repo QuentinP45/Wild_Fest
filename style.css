@@ -1,122 +1,132 @@
 
+/* Section Arnaud */
+/* Section Thomash */
+
+body{
+
+    color:#757575;
+}
+
+
+#artiste h1, #programme h1 {
+
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+    }
+
+
+
+#artiste .card{
+
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 100%, rgba(255,255,255,0.06) 39%, rgba(30,27,38,0.88) 53%, rgba(30,27,38,1) 55%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 100%,rgba(255,255,255,0.06) 39%,rgba(30,27,38,0.88) 53%,rgba(30,27,38,1) 55%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 100%,rgba(255,255,255,0.06) 39%,rgba(30,27,38,0.88) 53%,rgba(30,27,38,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#1e1b26',GradientType=0 ); /* IE6-9 */
+        
+      
+          
+    background-size: cover;
+    z-index:1 !important;
+
+    }
+
+
 #artiste div .card {
     
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
     
 }  
 
 #artiste div .card-title {
     
-    color:#FF5500;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
         
 }
 
-
+#artiste div .card-text {
+    
+    color:rgb(255, 255, 255);
+        
+}
 
 #artiste div .btn {
     
-    background-color: #999966;
+    background-color: #ffffff00;
     color:white;
+    border-color: #ffffff;
     
 }
 
-#artiste {
-    
-    
-    padding-bottom: 40px;
-    
-    
-}
 
 
 #artiste .card .card-img-top{
     
+  
+ 
+
+  background-size: cover;
+  z-index:111 !important;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, 
+			color-stop(0.00,  rgba(0,0,0,1)),
+			color-stop(0.35,  rgba(0,0,0,1)),
+			color-stop(0.50,  rgba(0,0,0,1)),
+			color-stop(0.65,  rgba(0,0,0,1)),
+			color-stop(0.85,  rgba(0,0,0,0.6)),
+      color-stop(1.00,  rgba(0,0,0,0)));
 
 
- transition: .5s ease;
- opacity: 1; 
-    
-    -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+
 }
 
 #artiste .card:hover .card-img-top{
     
-
-
     transition: .5s ease;
-    opacity: 1; 
-       
-       -webkit-filter: grayscale(0%);
-       filter: grayscale(0%);
-       -webkit-transition: .3s ease-in-out;
-       transition: .3s ease-in-out;
+    opacity: 1;    
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
    }
 
-
-#artiste h1{
-
-    margin-bottom: 60px;
+   
 
 
-   }
+.background{
 
-#artiste{
 
-    margin-bottom: 60px;
-    
-    
-    }
-    #programme h1{
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+                  url("img/bkg.jpg");
 
-        margin-bottom: 60px;
-    
-    }
-    
-    #programme{
-    
-        margin-bottom: 60px;
-        margin-top: 60px;
-    }
-    
-    
-    /* Section Arnaud */
-    
-    #presentation{
-    
-        margin-bottom: 60px;
-        margin-top: 60px;
-           
-        }
-    #presentation h1{
-    
-            margin-bottom: 60px;
-           
-               
-            }
-    
-    /* Section ziad */
 
-    #buvette{
-    
-      
-        margin-top: 60px;
-        margin-bottom: 60px;
-           
-        }
-    #buvette h1{
-    
-            margin-bottom: 60px;
-           
-               
-            }
+}
 
-            #galerie{
-    
-                margin-bottom: 60px;
-               
-                   
-                }
+.background-footer{
+
+ background-color: #4e6266; 
+ 
+ }
+ 
+#programme ul li.titrebleu{
+
+
+background-color: #77CCB0;
+ }
+ #programme ul li.titrevert{
+
+
+background-color: #88CC77;
+     }
+     #programme ul li.titremarron{
+
+
+background-color: #999966;
+         }
+
+
+
+/* Section ziad */
+/* Section Quentin */
+

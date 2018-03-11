@@ -13,8 +13,8 @@
     
 <body>
     <!-- Partie arnaud -->
-    <header>
-        <div class="container-fluid">
+    <header class="mb-5">
+        <div class="container-fluid p-0">
 
             <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark" id="nav-fest">
 
@@ -41,7 +41,7 @@
             </nav>
         </div>
         <section id="slide-fest">
-            <div class="container-fluid">
+            <div class="container-fluid p-0">
                 <div id="wild-carousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#wild-carousel" data-slide-to="0" class="active"></li>
@@ -82,7 +82,7 @@
     
    
 
-    <div class="container">
+    <div class="container mb-5">
 
 
             <section id="presentation">
@@ -91,23 +91,28 @@
 
                     <div class="col-12 text-center">
 
-                            <h1 class="text-center">Qu'est-ce que le Wild Fest ?</h1>
+                            <h1 class="text-center d-none d-sm-block">Qu'est-ce que le Wild Fest ?</h1>
                             
                             </div>
-                        </div>
+
+                    <div class="col-12 text-center d-block d-sm-none">
+        
+                            <h1 class="text-center ">Le Wild Fest</h1>
+                                    
+                    </div>
+
+                </div>
 
 
                
                 <div class="row">
 
-                <div class="col-lg-9">
-                        <p class="text-justified">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis unde quibusdam dolores. Sequi possimus repudiandae voluptatum nam dolores iusto, 
-                                rerum doloremque pariatur molestias facere voluptatibus doloribus nihil, quaerat id unde! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Iste iure quibusdam voluptate at eos tempore, a ut molestias dolores, animi, similique id ullam corporis. Sint adipisci consequatur quo velit reprehenderit.</p>
+                <div class="col-lg-9 align-self-center">
+                        <p class=" text-justify">Depuis 2003, tous les deux ans, la Wild Code School organise fin septembre le Wildfest. En 2015, le festival a investi la forêt de Cerf Chevalier, et accueilli plus de 650 000 visiteurs en 5 jours de fêtes. Il s’agit du plus grand rendez-vous européen du festival forestier ; un succès rendu possible grâce à la participation des 700 bucherons venus de toute la France et d’un pays européen invité, des 450 artistes, et de la centaine d’exposants qui mettent à l’honneur la culture, la gastronomie et ses traditions.</p>
 
                 </div>
-                <div class="col-lg-3">
-                        <img class="rounded-circle" src="http://via.placeholder.com/140x140" alt="placeholder">
+                <div class="col-lg-3  text-center">
+                        <img class="" src="img/bucheron.png" alt="placeholder" width="180px">
 
                 </div>
                 </div>
@@ -118,41 +123,52 @@
 </div>    
 
    <!-- Partie thomash -->
+
+   <div class="container-fluid background mb-5 pt-5 pb-5  ">
    <section id="artiste">
        
-       <div class="container">
+       <div class="container  ">
           
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center d-none d-sm-block mb-5">
 
                 <h1>A ne pas manquer cette année !</h1>
                 
                 </div>
-          <div class="col-lg-4">
+                <div class="col-12 text-center d-block d-sm-none mb-5">
+        
+                    <h1 class="text-center ">Les Artistes</h1>
+                        
+                </div>
+          
+          
+          
+          
+                <div class="col-md-4 d-flex justify-content-center">
 
 
             
               
-            <div class="card border-0">
+            <div class="card border-0 mb-5 d-none d-md-block">
             <img class="card-img-top" src="img/donaldduck.jpeg" alt="Card image cap">
             <div class="card-body text-center">
-            <h4 class="card-title card-img-overlay">Michel Cerfdou</h4>
+            <h4 class="card-title ">Michel Cerfdou</h4>
             <p class="card-text">
-            Courte description de l'artiste...
+           
             </p>
             <a href="#!" class="btn">Découvrir l'artiste</a>
             </div>
             </div>
             
         </div> 
-          <div class="col-lg-4">
+          <div class="col-md-4 d-flex justify-content-center">
               
-            <div class="card border-0">
+            <div class="card border-0 mb-5 d-none d-md-block">
             <img class="card-img-top" src="img/donaldduck.jpeg" alt="Card image cap">
             <div class="card-body text-center">
-            <h4 class="card-title card-img-overlay">Lady Bois Bois</h4>
+            <h4 class="card-title">Lady Bois Bois</h4>
             <p class="card-text">
-            Courte description de l'artiste...
+            
             </p>
             <a href="#!" class="btn">Découvrir l'artiste</a>
             </div>
@@ -160,27 +176,101 @@
               
           </div><!-- /.col-lg-4 -->
             
-          <div class="col-lg-4">
+          <div class="col-md-4 d-flex justify-content-center">
               
-            <div class="card border-0">
+            <div class="card border-0 mb-5 d-none d-md-block">
             <img class="card-img-top" src="img/donaldduck.jpeg" alt="Card image cap">
             <div class="card-body text-center">
-            <h4 class="card-title card-img-overlay">Ed Cerf'An</h4>
+            <h4 class="card-title ">Ed Cerf'An</h4>
             <p class="card-text">
-            Courte description de l'artiste...
+            
             </p>
             <a href="#!" class="btn">Découvrir l'artiste</a>
             </div>
             </div>
               
           </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+        
            
            
            
-           
-           
-       </div>
+          <div class="col-12 d-flex justify-content-center d-block d-md-none mb-6">
+        
+                <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item d-flex justify-content-center">
+                          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Michel Cerfdou</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                          <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Lady BoisBois</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Ed Cerf'An</a>
+                        </li>
+                      </ul>
+                    
+            </div>
+        
+            <div class="col-12 d-flex justify-content-center d-block d-md-none">
+        
+
+                
+
+                    
+                          <div class="tab-content justify-content-center" id="pills-tabContent">
+                            <div class="tab-pane fade show active justify-content-center" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    
+                                    <div class="card border-0 mb-5">
+                                            <img class="card-img-top" src="img/donaldduck.jpeg" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                            <h4 class="card-title card-img-overlay">Michel Cerfdou</h4>
+                                            <p class="card-text">
+                                            Courte description de l'artiste...
+                                            </p>
+                                            <a href="#!" class="btn">Découvrir l'artiste</a>
+                                            </div>
+                                            </div>
+    
+                            </div>
+                            <div class="tab-pane fade justify-content-center" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    
+                                    <div class="card border-0 mb-5">
+                                            <img class="card-img-top" src="img/donaldduck.jpeg" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                            <h4 class="card-title card-img-overlay">Lady BoisBois</h4>
+                                            <p class="card-text">
+                                            Courte description de l'artiste...
+                                            </p>
+                                            <a href="#!" class="btn">Découvrir l'artiste</a>
+                                            </div>
+                                            </div>
+    
+                            </div>
+                            <div class="tab-pane fade justify-content-center" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+    
+                                    <div class="card border-0 mb-5">
+                                            <img class="card-img-top" src="img/donaldduck.jpeg" alt="Card image cap">
+                                            <div class="card-body text-center">
+                                            <h4 class="card-title card-img-overlay">Ed Cerf'An</h4>
+                                            <p class="card-text">
+                                            Courte description de l'artiste...
+                                            </p>
+                                            <a href="#!" class="btn">Découvrir l'artiste</a>
+                                            </div>
+                                            </div>
+    
+                            </div>
+                          </div>
+    
+    
+    
+    
+    
+                          </div>
+               </div>
+
+
+        </div>
+       
     </section>
 
     
@@ -188,110 +278,120 @@
     
    <section id="programme">
        
-       <div class="container">
-        <div class="row">
+      <div class="container">
+       <div class="row">
 
-            <div class="col-12 text-center">
+            <div class="col-12 text-center d-none d-sm-block mb-5">
 
             <h1>Le programme du WildFest</h1>
             
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-12 text-center d-block d-sm-none mb-5">
+        
+                <h1 class="text-center ">Le programme</h1>
+                    
+            </div>
+
+            <div class="col-lg-6 mr-0 ml-0">
 
                
             
-            <div class="card shadowed">
-            <div class="card-block text-center card-primary p-2">
-              <h2></h2>
-              <p class="lead">Concerts</p>
-            </div>
-             <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;09:00&nbsp;<b>Concert de cors de chasse</b></li>
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;10:00&nbsp;<b>Orchestre symfonique : "Brahms" du cerf</b></li>
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;14:00&nbsp;<b>Jacques Dutronc</b></li>
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;15:00&nbsp;<b>Michel Cerfdou</b></li>
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;18:00&nbsp;<b>Lady bois-bois</b></li>
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;22:00&nbsp;<b>Ed Cerf'an</b></li>
+                         <ul class="list-group prog mb-4 ">
+                <li class="list-group-item  titrebleu text-center"><h4>Concerts</h4></li>
+              <li class="list-group-item">&nbsp;09:00&nbsp;<b>Cors de chasse</b></li>
+              <li class="list-group-item">&nbsp;10:00&nbsp;<b>"Brahms" du cerf</b></li>
+              <li class="list-group-item">&nbsp;14:00&nbsp;<b>Jacques Dutronc</b></li>
+              <li class="list-group-item">&nbsp;15:00&nbsp;<b>Michel Cerfdou</b></li>
+              <li class="list-group-item">&nbsp;18:00&nbsp;<b>Lady bois-bois</b></li>
+              <li class="list-group-item">&nbsp;22:00&nbsp;<b>Ed Cerf'an</b></li>
             </ul>
-          </div>
-            
-            
             
             </div>
             <div class="col-lg-6">
             
-                <div class="card shadowed">
-            <div class="card-block text-center card-primary p-2">
-              <h2></h2>
-              <p class="lead">Projections</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;11:00&nbsp;<b> Bambi, son of a biche (VO)</b></li>
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;16:00&nbsp;<b>FaonFaon la tulipe</b></li>
-            </ul>
-          </div>
-            
+                <ul class="list-group projection mb-4 ">
+                    <li class="list-group-item titrevert text-center"><h4>Projections</h4></li>
+                    <li class="list-group-item pb-2 pt-2">&nbsp;11:00&nbsp;<b><span class="d-block d-sm-none"></span>Bambi, son of a biche (VO)</b></li>
+                    <li class="list-group-item pb-2 pt-2">&nbsp;16:00&nbsp;<b><span class="d-block d-sm-none"></span>FaonFaon la tulipe</b></li>
+                         
+                </ul>
+                <ul class="list-group animation ">
+                        <li class="list-group-item titremarron text-center"><h4>Animations</h4></li>
+                        <li class="list-group-item pb-2 pt-2">&nbsp;15:00-18:00&nbsp;<b>CerfAmique</b></li>
+                        <li class="list-group-item pb-2 pt-2">&nbsp;09:00-11:00&nbsp;<b>Cerf-volant</b></li>
+                        <li class="list-group-item pb-2 pt-2">&nbsp;12:00-14:00&nbsp;<b>Biche-volley</b></li>
+                             
+                    </ul>
                 
-                <div class="card shadowed">
-            <div class="card-block text-center card-primary p-2">
-              <h2></h2>
-              <p class="lead">Animations</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;15:00-18:00 –&nbsp;<b>CerfAmique</b></li>
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;09:00-11:00 –&nbsp;<b>Cerf-volant</b></li>
-              <li class="list-group-item"><i class="mx-auto fa d-inline fa-clock-o text-primary"></i>&nbsp;12:00-14:00 –&nbsp;<b>Biche-volley</b></li>
-              
-            </ul>
-          </div>
+                
                 
                 
             
             </div>
-            </div>
-       </div>
-       
-
+            
+        </div>
+        </div>
+     </section>  
+</div>
 
     <!-- Partie ziadoof -->
     
          <section id="buvette">
                    
-                <div class="container">   
-                    
-                    <div class="row">
+                <div class="container mb-5">
+                        <div class="row  ">
 
-                            <div class="col-12 text-center">
+                            <div class="col-12 text-center d-none d-sm-block mb-5">
         
-                                    <h1 class="text-center">Boire un coup à buvette bio</h1>
+                                    <h1 class="text-center">Boire un coup à la buvette bio !</h1>
                                     
                                     </div>
-                                </div>
+                            <div class="col-12 text-center d-block d-sm-none mb-5">
+        
+                                    <h1 class="text-center ">La buvette bio !</h1>
+                                        
+                            </div>    
         
         
                        
-                        <div class="row">
+                        
         
-                        <div class="col-lg-9">
-                                <p class="text-justified">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis unde quibusdam dolores. Sequi possimus repudiandae voluptatum nam dolores iusto, 
-                                        rerum doloremque pariatur molestias facere voluptatibus doloribus nihil, quaerat id unde! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Iste iure quibusdam voluptate at eos tempore, a ut molestias dolores, animi, similique id ullam corporis. Sint adipisci consequatur quo velit reprehenderit.</p>
-        
-                        </div>
-                        <div class="col-lg-3">
-                                <img class="rounded-circle" src="http://via.placeholder.com/140x140" alt="placeholder">
-        
-                        </div>
-                        </div>
-                        </div>
+                        <div class="col-12  justify-content-center mb-5">
+                                <h5 class="text-center">Produits certifié bio 100% WidFest.
+                                    Un chapiteau ombragé est à la disposition des visiteurs mangeant sur place.</h5>
 
+
+                                
+                        </div>
+                        
+
+                        <div class="col-md-4  text-center ">
+                                <img class="rounded-circle mb-4" src="img/beer-animation13.gif" alt="Generic placeholder image" width="180" height="180">
+                                <h3>Biere 4€</h3>
+                              
+                                
+                              </div><!-- /.col-lg-4 -->
+                              <div class=" col-md-4 text-center  ">
+                                <img class="rounded-circle mb-4" src="img/soft.gif" alt="Generic placeholder image" width="180" height="180">
+                                <h3>Soft 3€</h3>
+                               
+                                
+                              </div><!-- /.col-lg-4 -->
+                              <div class="col-md-4 text-center ">
+                                <img class="rounded-circle mb-4" src="img/burger.png" alt="Generic placeholder image" width="180" height="180">
+                                <h3>Burger 5€</h3>
+                                
+                    </div>
+
+
+</div></div>
    </section >
     
 
    <section id="galerie" >
-       <div class="container ">
-        <h1 class="text-center" > Les Années précédentes en image </h2>
+       <div class="container mb-5 ">
+        <h1 class="text-center mb-5" > Les Années précédentes en image </h2>
                     <div class="text-center ">
                       <button type="button" class="btn btn-default m-3" aria-label="center Align">
                            <span class="glyphicon glyphicon-align-center" aria-hidden="true"> 2017 </span>
@@ -338,13 +438,13 @@
                               <img class="card-img-top" src="http://via.placeholder.com/140x140" alt="Card image cap">
                        </div>
                    
-                </div>
-           </div>
+                
+        </div>   </div>
    </section>
    
    <!-- Partie Quentin -->
-
-   <footer class="container">
+<div class="container-fluid background-footer">
+   <footer class="container mt-5">
         <div class="row no-gutters">
             <div class="embed-responsive embed-responsive-4by3 col-md-6">
                 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.874313162222!2d6.557249573349128!3d44.946222953273384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789fa66eaca3a7d%3A0xbbfa99f5d296cbd0!2sSerre+Chevalier!5e0!3m2!1sfr!2sfr!4v1520495465147" frameborder="0" style="border:0"></iframe>
@@ -353,7 +453,7 @@
                 <img src="img/site-plan.png" alt="Festival map" style="width: 100%;height: 100%"; />
             </div>
         </div>
-        <div class="row">
+        <div class="row pt-5">
             <div class="col-md text-center">
                 <p>Wildfest</p>
                 <p><img src="http://via.placeholder.com/140x140" alt="logo" class="rounded-circle img-fluid" /></p>
@@ -381,7 +481,7 @@
             </div>
         </div>
 
-    </footer>
+    </footer></div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
