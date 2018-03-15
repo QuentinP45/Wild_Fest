@@ -1,8 +1,8 @@
 
-/*Padding pour corriger le scrolling qui cache le titre de la section */
+/*Padding pour corriger le scrolling qui cache le titre de la section 
 #artiste, #presentation, #programme, #buvette, #infos, #gallerie{
     padding-top: 90px;
-}
+}*/
 
 @import url('https://fonts.googleapis.com/css?family=Mina');
 
