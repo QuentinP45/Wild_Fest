@@ -2,10 +2,15 @@
 /* Section Arnaud */
 /* Section Thomash */
 
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
 body{
 
+    font-family: 'Mina', sans-serif;
     color:#757575;
 }
+
+
 
 h1 {
 
