@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Wild Fest</title>
 </head> 
     
@@ -443,45 +444,69 @@
    </section>
    
    <!-- Partie Quentin -->
-<div class="container-fluid background-footer">
-   <footer class="container mt-5">
-        <div class="row no-gutters">
-            <div class="embed-responsive embed-responsive-4by3 col-md-6">
-                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.874313162222!2d6.557249573349128!3d44.946222953273384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789fa66eaca3a7d%3A0xbbfa99f5d296cbd0!2sSerre+Chevalier!5e0!3m2!1sfr!2sfr!4v1520495465147" frameborder="0" style="border:0"></iframe>
+    
+    <footer class="container-fluid background-footer pl-0 pr-0">
+   
+        <div class="row">
+            <div class="col-md-8 pr-0 text-center">
+                <h1 class="pt-2">Carte d'accès au festival</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.8804218776663!2d6.557088951348248!3d44.94609877578182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789fa66eaca3a7d%3A0xbbfa99f5d296cbd0!2sSerre+Chevalier!5e0!3m2!1sfr!2sfr!4v1521038269432" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe> 
             </div>
-            <div class="col-md-6" class="pl-0 pr-0">
-                <img src="img/site-plan.png" alt="Festival map" style="width: 100%;height: 100%"; />
-            </div>
+        
+        <div class="col-md-4 pl-0 text-center">
+            <h1 class="mt-2">Plan du festival</h1>
+            <img src="img/site-plan.png"/>
         </div>
-        <div class="row pt-5">
-            <div class="col-md text-center">
-                <p>Wildfest</p>
-                <p><img src="http://via.placeholder.com/140x140" alt="logo" class="rounded-circle img-fluid" /></p>
-                <p>1 Avenue du Wildfest - 45000 orléans</p>
-                <p>Tel : 00.00.00.00.00 - Mail: contat@wildfest.com</p>
-            </div>
-            <div class="col-md text-center">
-                <p>Contact</p>
-                <p>Contact nous pour des informations ou postuler comme bénévole au Wildfest</p>
-                <form action="" method=""class="form-group">
+        </div>
+        <div class="row mt-2 imgTest">
+            <div class="col-md-5 offset-md-1">
+                <p class="text-center">Contact</p>
+                <p>Besoin d'informations, donner un coup de main, c'est ici !</p>
+                <form action="" method="post" class="form-group">
                     <p>
-                        <input type="email" name="user_mail" placeholder="Email" style="width:100%"/>
+                        <label for="mail">E-mail</label>
+                        <input type="email" name="userMail" id="mail" placeholder="Mon e-mail" class="form-control"/>
                     </p>
                     <p>
-                        <textarea name="user_message" style="width:100%">Votre message</textarea>
+                        <label for="subject">Je vous contacte car</label>
+                        <select name="userSubject" id="subject" class="form-control">
+                            <option>J'ai besoin d'une information</option>
+                            <option>Je souhaite être bénévole</option>
+                            <option>Autre</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="message">Votre message</label>
+                        <textarea name="userMessage" placeholder="Mon message" id="message" class="form-control"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" name="submit" value="J'envoie" class="btn btn-primary"/>
                     </p>
                 </form>
             </div>
-            <div class="col-md text-center">
-                <p>Tarifs</p>
-                <p>20 euros / Personne</p>
-                <p class="d-inline-block"><a target="_blank" title="Facebook" href="https://www.facebook.com/sharer.php?u=https://Wildfest.com" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"><img src="img/facebook-variation.png" alt="Facebook" /></a></p>
-                <p class="d-inline-block"><a target="_blank" title="Twitter" href="https://twitter.com/share?url=https:Wildfest.com" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"><img src="img/twitter-variation.png" alt="Twitter" /></a></p>
-                <p class="d-inline-block"><a target="_blank" title="Instagram" href="https://instagram.com/share?url=https:Wildfest.com" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"><img src="img/instagram-variation.png" alt="Instagram" /></a></p>
+
+        <div class="col-md-5 offset-md-1 pl-0">
+                <p class="text-center">Wildfest</p>
+                <div class="row">
+                <div col-md-3>
+                <p><img src="http://via.placeholder.com/140x140" alt="logo" class="rounded-circle img-fluid" /></p>
+                </div>
+                <div class="col-md-8">
+                <p>1 Avenue du Wildfest - 45000 orléans</p>
+                <p>Tel : 00.00.00.00.00 - Mail: contact@wildfest.com</p>
+                </div>
+                </div>
+                <div class="row text-center">
+                <p>Tarif : 20euros par personne</p>
+                </div> 
+                <div class="row">
+                <p class="d-inline-block m-2"><img src="img/185981.png"/></p>
+                <p class="d-inline-block m-2"><img src="img/185961.png"/></p>
+                <p class="d-inline-block m-2"><img src="img/185985.png"/></p>
             </div>
         </div>
-
-    </footer></div>
+        </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
