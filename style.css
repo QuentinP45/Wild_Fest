@@ -1,16 +1,72 @@
 
+/*Padding pour corriger le scrolling qui cache le titre de la section */
+#artiste, #presentation, #programme, #buvette, #infos, #gallerie{
+    padding-top: 90px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mina');
+
+@font-face {
+    font-family: wild;
+    src: url('fonts/wild.otf')
+}
+
+
 /* Section Arnaud */
+
+#navbar-fest a{
+    font-family: 'Mina', sans-serif;
+    font-size: 3vh;
+    color: #88CC77;
+}
+#nav-fest a.navbar-brand {
+    font-size: 5vh;
+    color: rgb(255,85,0);       
+    font-family: wild;
+}
+#nav-fest {
+    background-color: black;
+}
+
+#slide-fest div.carousel-item{
+    height: 900px;
+}
+#slide-fest div.carousel-caption h2{
+    font-family:  wild;
+    font-size:  23vh;   
+    color: #88CC77;
+    text-shadow: 2px 2px 2px black;
+}
+#slide-fest div.carousel-caption p {
+    color: #88CC77;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#slide-fest div.carousel-caption{
+    top: 10em;
+    bottom: auto;
+}
+#slide-fest div.carousel-caption a{
+    background-color: #88CC77;
+    color:black;
+    border-color: black;
+}
+
+#presentation p.text-justify {
+    font-family: 'Mina', sans-serif;
+}
+
 /* Section Thomash */
 
 body{
-
-    color:#757575;
+    font-family: 'Mina', sans-serif;
+    color:#757575;          
 }
 
 
 #artiste h1, #programme h1 {
-
-    color: #ffffff;
+    color: white;
     text-shadow: 2px 2px 2px black;
     }
 
@@ -104,10 +160,8 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .background-footer{
-
  background-color: #4e6266; 
- color: white;
- 
+ color: white; 
  }
  
 #programme ul li.titrebleu{
@@ -132,6 +186,4 @@ background-color: #999966;
 
 
 /* Section Quentin */
-
-
 
