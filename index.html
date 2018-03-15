@@ -13,57 +13,73 @@
     <title>Wild Fest</title>
 </head>
 
-<body>
+<body id="page-top">
     <!-- Partie arnaud -->
-    <header class="mb-5">
-        <div class="container-fluid p-0">
-
-            <nav class="navbar navbar-expand-lg sticky-top bg-dark navbar-dark" id="nav-fest">
-
-                <a class="navbar-brand" href="#">WildFest</a>
+    <header class="mb-5 scroll">
+        <div class="container-fluid p-0">  
+            <nav class="navbar navbar-expand-md fixed-top navbar-dark" id="nav-fest">
+                <a class="navbar-brand scroll" href="#page-top">
+                        <img src="http://www.biocooplabelleverte.com/docs/158/Producteurs/cerf.png" class="img-fluid"  width="50" alt="brand">
+                    WildFest</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-fest" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-md-end" id="navbar-fest">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#artiste">Artiste
+                <div class="collapse navbar-collapse justify-content-md-end" id="navbar-fest">  
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link scroll active" href="#artiste">Artiste
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#programme">Programme</a>
+                            <a class="nav-link scroll" href="#programme">Programme</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#buvette">Buvette</a>
+                            <a class="nav-link scroll" href="#buvette">Buvette</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#infos">Infos Pratiques</a>
+                            <a class="nav-link scroll" href="#infos">Infos Pratiques</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link scroll" href="#gallerie">Gallerie</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </div>
-        <section id="slide-fest">
+        </div>  
+        <section id="slide-fest" class="scroll">
             <div class="container-fluid p-0">
-                <div id="wild-carousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
+                <div id="wild-carousel" class="carousel slide" data-ride="carousel" interval="10000">
+                    <ol class="carousel-indicators d-none d-md-flex">
                         <li data-target="#wild-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#wild-carousel" data-slide-to="1"></li>
                         <li data-target="#wild-carousel" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
-
-                        <div class="carousel-item active">
-
-                            <img class="d-block w-100" src="https://orig00.deviantart.net/4601/f/2015/262/1/1/deer_girl__natural_faun_girl__cosplay_by_mimozacosplay-d9a5s8a.jpg" alt="First slide">
+                        <div class="carousel-item active">  
+                            <img class="d-block w-100 img-fluid" src="img/wildfest1.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="display-1">Wild Fest</h2>
+                                <p>Le 1er Avril de 9h à minuit à Cerf-Chevalier</p>
+                                <a href="#presentation" class="scroll btn btn-primary btn-lg">Concept</a>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://orig00.deviantart.net/4601/f/2015/262/1/1/deer_girl__natural_faun_girl__cosplay_by_mimozacosplay-d9a5s8a.jpg" alt="Second slide">
+                            <img class="d-block w-100 img-fluid" src="img/wildfest4.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="display-1">Wild Fest</h2>
+                                <p>Le 1er Avril de 9h à minuit à Cerf-Chevalier</p>
+                                <a href="#presentation" class="scroll btn btn-lg">Concept</a>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://orig00.deviantart.net/4601/f/2015/262/1/1/deer_girl__natural_faun_girl__cosplay_by_mimozacosplay-d9a5s8a.jpg" alt="Second slide">
+                            <img class="d-block w-100 img-fluid" src="img/wildfest3.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2 class="display-1">Wild Fest</h2>
+                                <p class="display-4">Le 1er Avril de 9h à minuit à Cerf-Chevalier</p>
+                                <a href="#presentation" class="scroll btn btn-lg">Concept</a>
+                            </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#wild-carousel" role="button" data-slide="prev">
@@ -75,34 +91,23 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="container">
-                            <div class="intro-text">
-                                <div class="intro-lead-in">Wild Fest</div>
-                                <div class="intro-heading">Le 1er Avril de 9h à minuit à Cerf-Chevalier</div>
-                                <a href="#presentation" class="page-scroll btn btn-primary btn-lg">Concept</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     </header>
 
     <div class="container mb-5">
-        <section id="presentation">
+        <section id="presentation" class="scroll">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="text-center d-none d-sm-block">Qu'est-ce que le Wild Fest ?</h1>
+                    <h1 class="text-center d-none d-sm-block display-4 mb-5">Qu'est-ce que le Wild Fest ?</h1>
                 </div>
                 <div class="col-12 text-center d-block d-sm-none">
-                   <h1 class="text-center ">Le Wild Fest</h1>
+                   <h1 class="text-center display-4">Le Wild Fest</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-9 align-self-center">
-                    <p class=" text-justify">Depuis 2003, tous les deux ans, la Wild Code School organise fin septembre le Wildfest. En 2015, le festival
+                    <p class="text-justify mb-5">Depuis 2003, tous les deux ans, la Wild Code School organise fin septembre le Wildfest. En 2015, le festival
                         a investi la forêt de Cerf Chevalier, et accueilli plus de 650 000 visiteurs en 5 jours de fêtes.
                         Il s’agit du plus grand rendez-vous européen du festival forestier ; un succès rendu possible grâce
                         à la participation des 700 bucherons venus de toute la France et d’un pays européen invité, des 450
@@ -117,12 +122,12 @@
     </div>
 
     <!-- Partie thomash -->
-    <div class="container-fluid background mb-5 pt-5 pb-5  ">
-        <section id="artiste">
-            <div class="container  ">
+    <div class="container-fluid background mb-5 pt-5 pb-5 scroll  ">
+        <section id="artiste" class="scroll">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 text-center d-none d-sm-block mb-5">
-                        <h1>A ne pas manquer cette année !</h1>
+                        <h1 class="display-4">A ne pas manquer cette année !</h1>
                     </div>
                     <div class="col-12 text-center d-block d-sm-none mb-5">
                         <h1 class="text-center ">Les Artistes</h1>
@@ -220,14 +225,14 @@
             </div>
         </section>
 
-        <section id="programme">
+        <section id="programme" class="scroll">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center d-none d-sm-block mb-5">
-                        <h1>Le programme du WildFest</h1>
+                        <h1 class="display-4">Le programme du WildFest</h1>
                     </div>
                     <div class="col-12 text-center d-block d-sm-none mb-5">
-                        <h1 class="text-center ">Le programme</h1>
+                        <h1 class="text-center display-4">Le programme</h1>
                     </div>
                     <div class="col-lg-6 mr-0 ml-0">
                         <ul class="list-group prog mb-4 ">
@@ -289,11 +294,11 @@
     </div>
 
     <!-- Partie ziadoof -->
-    <section id="buvette">
+    <section id="buvette" class="scroll">
         <div class="container mb-5">
             <div class="row  ">
                 <div class="col-12 text-center d-none d-sm-block mb-5">
-                    <h1 class="text-center">Boire un coup à la buvette bio !</h1>
+                    <h1 class="text-center display-4">Boire un coup à la buvette bio !</h1>
                 </div>
                 <div class="col-12 text-center d-block d-sm-none mb-5">
                     <h1 class="text-center ">La buvette bio !</h1>
@@ -318,9 +323,9 @@
         </div>
     </section>
 
-    <section id="galerie">
+    <section id="gallerie" class="scroll">
         <div class="container mb-5 ">
-            <h1 class="text-center mb-5"> Les Années précédentes en image </h1>
+            <h1 class="text-center mb-5 display-4"> Les Années précédentes en image </h1>
                 <div class="text-center ">
                     <button type="button" class="btn btn-default m-3" aria-label="center Align">
                         <span class="glyphicon glyphicon-align-center" aria-hidden="true"> 2017 </span>
@@ -372,7 +377,7 @@
 
     <!-- Partie Quentin -->
     <div class="container-fluid background-footer">
-        <footer class="container mt-5">
+        <footer id="infos" class="container mt-5">
             <div class="row no-gutters">
                 <div class="embed-responsive embed-responsive-4by3 col-md-6">
                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2823.874313162222!2d6.557249573349128!3d44.946222953273384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789fa66eaca3a7d%3A0xbbfa99f5d296cbd0!2sSerre+Chevalier!5e0!3m2!1sfr!2sfr!4v1520495465147"
@@ -433,8 +438,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
