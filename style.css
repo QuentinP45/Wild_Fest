@@ -16,31 +16,38 @@
 
 #navbar-fest a{
     font-family: 'Mina', sans-serif;
-    font-size: 3vh;
-    color: #40695b;
+    font-size: 20px;
+    color:white;
+}
+#nav-fest{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 #nav-fest a.navbar-brand {
-    font-size: 5vh;
-    color: rgb(255,85,0);       
-    font-family: wild;
+    font-size: 30px;
+    color: #40695b;       
+    /*font-family: wild;*/
+
+    font-family: 'Mina', sans-serif;
 }
 #nav-fest {
     background-color: black;
 }
-
-#slide-fest div.carousel-item{
-    height: 900px;
+#wild-carousel div.carousel-item{
+    max-height: 100vh;
 }
 #slide-fest div.carousel-caption h2{
-    font-family:  wild;
+    /*font-family:  wild;*/
+    font-family: 'Mina', sans-serif;
     font-size:  23vh;   
-    color: #40695b;
-    text-shadow: 2px 2px 2px black;
+    color: white;
+    text-shadow: 2px 2px 2px #40695b;
 }
 #slide-fest div.carousel-caption p {
-    color: #40695b;
+    color: white;
     font-size: 30px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px #40695b;
+    font-family: 'Mina', sans-serif;
 }
 
 #slide-fest div.carousel-caption{
@@ -48,9 +55,15 @@
     bottom: auto;
 }
 #slide-fest div.carousel-caption a{
+    border-color: white;
+    color:white;
+  
+}
+
+#slide-fest div.carousel-caption a:hover{
     background-color: #40695b;
-    color:black;
-    border-color: black;
+    color:white;
+  
 }
 
 #presentation p.text-justify {
@@ -83,6 +96,12 @@ h3 {
     color: #40695b;
 }
 
+.toto{
+    font-family: 'Mina', sans-serif;
+
+
+}
+
 #artiste h1, #programme h1 {
     color: white;
     text-shadow: 2px 2px 2px black;
@@ -95,10 +114,10 @@ h3 {
 
     background: -moz-linear-gradient(top,  rgba(255,255,255,0) 100%, rgba(255,255,255,0.06) 39%, rgba(30,27,38,0.88) 53%, rgba(30,27,38,1) 55%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 100%,rgba(255,255,255,0.06) 39%,rgba(30,27,38,0.88) 53%,rgba(30,27,38,1) 55%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(255,255,255,0) 100%,rgba(255,255,255,0.06) 39%,rgba(30,27,38,0.88) 53%,rgba(30,27,38,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to bottom, rgba(50,82,71,0.8) 100%,rgba(255,255,255,0.06) 39%,rgba(30,27,38,0.88) 53%,rgba(50,82,71,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#1e1b26',GradientType=0 ); /* IE6-9 */
         
-      
+    
           
     background-size: cover;
     z-index:1 !important;
@@ -146,8 +165,21 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Mina', sans-serif;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white;
+    background-color: #40695b;}
 
-
+    .nav-pills .nav-link , .nav-pills .show > .nav-link {
+        color: #40695b;
+    }
+.pills-responsive .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: white;
+        background-color: #40695b;}
+    
+.pills-responsive .nav-pills .nav-link  > .nav-link {
+            color: white;
+            background-color: white;
+        }
 
 
 #artiste .card .card-img-top{
@@ -228,7 +260,7 @@ color:#40695b;
    /* background: linear-gradient(to bottom, rgba(53,141,39,1) 0%,rgba(53,141,39,0.98) 1%,rgba(63,147,66,0.71) 15%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   /*  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40695b', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
  
-  background-color: rgba(50, 82, 71, 0.2);
+  background-color: rgba(50, 82, 71, 0.5);
   font-family: 'Mina', sans-serif;
 color:white;
      }
@@ -239,9 +271,10 @@ color:white;
     }
 
 
-#artiste .nav-pills > .active > a, .nav-pills > .active > a:hover {
-            background-color: red;
-        }
+
+
+
+
 /* Section ziad */
 
 
