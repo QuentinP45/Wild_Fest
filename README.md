@@ -1,19 +1,5 @@
-Projet N°1: 
-Site pour promouvoir l'event "Wild Fest"
-
-
-Adresse du Mockflow : 
-
-https://wireframepro.mockflow.com/view/thomas-hubert-find-the-precious#/page/4be603de2db94a05b8311c704fe9ff88
-
-Partage des taches :
-
-Arnaud :
-
-Quentin :
-
-Ziad :
-
-Thomas :
+<h1 align="center">Projet fictif n° 1</h1> 
+<h2 align="center">Wild festival : Site vitrine du Wild festival</h2> 
+<img src="img/screen.png" alt="Image site wildfest" />
 
 
