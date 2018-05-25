@@ -25,7 +25,7 @@
 Ce projet est un travail de groupe dans le cadre de la formation développement web et mobile de la Wild code school Orléans.
 Merci à :
 <ul>
-  <li><a>Mahmoud Alabed</a></li>
-  <li><a>Thomas Hubert</a></li>
-  <li><a>Arnaud Gauthier</a></li>
+  <li>Mahmoud Alabed</li>
+  <li><a>Thomas Hubert</li>
+  <li>Arnaud Gauthier</li>
 </ul>
