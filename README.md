@@ -17,7 +17,6 @@
 <h2>Installation</h2>
 <ul>
   <li>Cloner le repository github dans un nouveau dossier</li>
-  <li>Faire un pull depuis la branche master</li>
   <li>Créer une connexion en local pour afficher le projet sur le navigateur</li>
 </ul>
 
